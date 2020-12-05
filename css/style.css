@@ -1,0 +1,156 @@
+.header {
+	margin-bottom: 0;
+	padding-top: 20px;
+	background-color: #CCD1D1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 150px;
+	z-index: 1;
+}
+
+.navbar {
+	position: fixed;
+	top: 150px;
+	width: 100%;
+	z-index: 1;
+}
+
+.container {
+	position: relative;
+	top: 200px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+td.receive {
+	color: #2E86C1;
+}
+
+td.transit {
+	color: #E74C3C;
+}
+
+tr td {
+	border: none;
+}
+
+td.image {
+	width: 100px;
+	height: 50px;
+}
+
+.loading-wrapper {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	z-index: 4;
+	padding: 50px;
+	background: url(../images/loading.gif);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.message-box {
+	position: absolute;
+	z-index: 4;
+	padding: 10px;
+	background: #722F37;
+	border-radius: 5px;
+}
+
+.message-box p {
+	color: #C0C0C0;
+}
+
+.linear-loading {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 10px;
+	background:url('../images/linear_loading.gif');
+	background-size: cover;
+	background-position: 50% 50%;
+	/*display: none;*/
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left:0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background:url('../images/bg.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.edit-btn {
+	display: none;
+	margin-left: 10px;
+}
+
+.under-message {
+	width: 100%;
+}
+
+.footer {
+	margin: 0;
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.foot-note {
+	line-height: 100px;
+	color: #fff;
+}
+
+
+/*--------------DISTRICTADMIN-----------------*/
+.wrapper {
+	position: fixed;
+	top: 0;
+	left:0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background:url('../images/bg1.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
+.login-box {
+	position: fixed;
+	padding: 10px;
+	width: 500px;
+	height:300px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	top: 32%;
+	left: 36%;
+	color: #fff;
+}
+
+
+.signup-box {
+	position: fixed;
+	padding: 10px;
+	width: 500px;
+	height:450px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	top: 25%;
+	left: 36%;
+	color: #fff;
+}
